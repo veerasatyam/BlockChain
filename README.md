@@ -60,6 +60,7 @@ const emergencyData = await fetch(`https://ipfs.io/ipfs/${emergencyCID}`).then(r
 console.log(kycData, tripData, emergencyData);
 ```
 ##Folder Structure
+```
 /src       → smart contract code (TouristIDRegistryV2.sol)
 /script    → deployment and interaction scripts
 /test      → unit tests
@@ -67,7 +68,7 @@ console.log(kycData, tripData, emergencyData);
 /out       → ABI JSON files
 foundry.toml
 README.md  → this file
-
+```
 ## Foundry
 
 **Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
