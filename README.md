@@ -27,7 +27,7 @@ Then use this JavaScript code to connect to the contract and get data:
 
 ```javascript
 import { ethers } from "ethers";
-import ABI from "./TouristIDRegistryV2.json"; // path to ABI JSON
+import ABI from "./TouristIdRegistry.json"; // path to ABI JSON
 
 // connect to MetaMask
 const provider = new ethers.providers.Web3Provider(window.ethereum);
@@ -61,7 +61,7 @@ console.log(kycData, tripData, emergencyData);
 ```
 ##Folder Structure
 ```
-/src       → smart contract code (TouristIDRegistryV2.sol)
+/src       → smart contract code (TouristIdRegistry.sol)
 /script    → deployment and interaction scripts
 /test      → unit tests
 /offchain  → IPFS upload script (Node.js uploader)
