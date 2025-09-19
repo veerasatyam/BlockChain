@@ -59,7 +59,7 @@ const emergencyData = await fetch(`https://ipfs.io/ipfs/${emergencyCID}`).then(r
 
 console.log(kycData, tripData, emergencyData);
 ```
-##Folder Structure
+# Folder Structure
 ```
 /src       → smart contract code (TouristIdRegistry.sol)
 /script    → deployment and interaction scripts
