@@ -58,10 +58,8 @@ const tripData = await fetch(`https://ipfs.io/ipfs/${tripCID}`).then(res => res.
 const emergencyData = await fetch(`https://ipfs.io/ipfs/${emergencyCID}`).then(res => res.json());
 
 console.log(kycData, tripData, emergencyData);
-My project folder looks like this:
-
-bash
-Copy code
+```
+##Folder Structure
 /src       → smart contract code (TouristIDRegistryV2.sol)
 /script    → deployment and interaction scripts
 /test      → unit tests
